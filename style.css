@@ -23,23 +23,10 @@ body {
     overflow: hidden;
 }
 
-.container .clear {
-    position: absolute;
-    font-size: 1.15rem;
-    top: 1.5rem;
-    right: 2rem;
-    color: #afafaf;
-    cursor: pointer;
-}
-
-.container .clear .fa-sync-alt:hover {
-    transform: rotate(45deg);
-}
-
 .container h1 {
     text-align: center;
     margin-bottom: 0.5rem;
-    font-size: 3rem;
+    font-size: 1.7rem;
 }
 
 form {
@@ -51,7 +38,7 @@ form {
 }
 
 .form-group label {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .form-group input {
@@ -91,22 +78,6 @@ form {
     display: grid;
     justify-content: center;
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
-}
-
-@media only screen and (max-width:400px) {
-    .container .clear {
-        top: 1.2rem;
-        right: 1.2rem;
-    }
-    .container h1 {
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width:260px) {
-    .container .clear {
-        display: none;
-    }
 }
